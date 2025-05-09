@@ -1,2 +1,2 @@
 # my-dotfiles
-Includes .zshrc .vimrc .
+Includes .zshrc .vimrc .vim .oh-my-zsh
