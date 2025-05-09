@@ -1,0 +1,1 @@
+/Users/daniellu/.vim/plugged/gruvbox/colors/gruvbox.vim
