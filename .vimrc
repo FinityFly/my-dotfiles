@@ -1,5 +1,5 @@
 set nocompatible
-set mouse-=a
+set mouse=a
 set number relativenumber
 set smarttab
 set autoindent
@@ -98,3 +98,4 @@ autocm VimEnter *
             "\ |   NERDTree
             "\ |   wincmd w
    \ | endif
+
