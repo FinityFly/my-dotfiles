@@ -118,7 +118,10 @@ alias neofetch='fastfetch'
 alias fbtint='saml2aws login -p fbt-int -a fbt-int && export AWS_PROFILE=fbt-int && export AWS_REGION=us-east-1'
 alias fbtdev='saml2aws login -p fbt-dev -a fbt-dev && export AWS_PROFILE=fbt-dev && export AWS_REGION=us-east-1'
 alias ffs='sudo'
-mb() { sudo $(fc -ln -1) }
+mbbro() {
+  last_command=$(fc -ln -1)
+  sudo $last_command
+}
 alias please='kubectl'
 alias yowtfwhyismycomputerblowingup='glances'
 alias yowtf='glances'
@@ -139,3 +142,6 @@ export NVM_DIR="$HOME/.nvm"
 # typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 
 export PATH="/usr/local/mysql/bin:$PATH"
+
+# nvbn/thefuck
+eval $(thefuck --alias shibal)
