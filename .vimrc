@@ -24,12 +24,11 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
 Plug 'airblade/vim-gitgutter'
-Plug 'scrooloose/nerdcommenter' " Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'scrooloose/nerdcommenter'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'lervag/vimtex'
-" Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
@@ -40,6 +39,7 @@ Plug 'tmsvg/pear-tree'
 Plug 'junegunn/fzf'
 Plug 'luochen1990/rainbow'
 Plug 'yggdroot/indentline'
+Plug 'sheerun/vim-polyglot'
 
 " Initialize plugin system
 call plug#end()
@@ -98,4 +98,3 @@ autocm VimEnter *
             "\ |   NERDTree
             "\ |   wincmd w
    \ | endif
-
