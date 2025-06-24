@@ -122,13 +122,20 @@ mbbro() {
   last_command=$(fc -ln -1)
   sudo $last_command
 }
-alias please='kubectl'
+please() {
+  if [ "$1" = "hack" ]; then
+    kubectl exec -it "$2" -- /bin/bash
+  else
+    kubectl "$@"
+  fi
+}
 alias yowtfwhyismycomputerblowingup='glances'
 alias yowtf='glances'
 alias sybau='exit'
 alias tspmo='sudo rm -rf'
 alias yolo='git commit -m "YOLO"; git push -u origin main'
 alias dog='cat'
+alias clit='clitris'
 
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
