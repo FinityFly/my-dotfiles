@@ -118,11 +118,14 @@ alias neofetch='fastfetch'
 alias fbtint='saml2aws login -p fbt-int -a fbt-int && export AWS_PROFILE=fbt-int && export AWS_REGION=us-east-1'
 alias fbtdev='saml2aws login -p fbt-dev -a fbt-dev && export AWS_PROFILE=fbt-dev && export AWS_REGION=us-east-1'
 alias ffs='sudo'
+mb() { sudo $(fc -ln -1) }
 alias please='kubectl'
 alias yowtfwhyismycomputerblowingup='glances'
 alias yowtf='glances'
 alias sybau='exit'
 alias tspmo='sudo rm -rf'
+alias yolo='git commit -m "YOLO"; git push -u origin master'
+alias dog='cat'
 
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
