@@ -124,7 +124,7 @@ alias yowtfwhyismycomputerblowingup='glances'
 alias yowtf='glances'
 alias sybau='exit'
 alias tspmo='sudo rm -rf'
-alias yolo='git commit -m "YOLO"; git push -u origin master'
+alias yolo='git commit -m "YOLO"; git push -u origin main'
 alias dog='cat'
 
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
